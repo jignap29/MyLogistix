@@ -13,7 +13,7 @@ const app = express();
 const userRoutes = require('./routes/userRoutes');
 const Routes = require("./routes/route.js");
 
-const PORT =  8000;
+const PORT =  7777;
 const MONGO_URI = process.env.MONGO_URI;
 
 // Debugging: Check if MONGO_URL is being loaded
